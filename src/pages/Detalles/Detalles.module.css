@@ -1,0 +1,92 @@
+.contenedor {
+    display: flex;
+    background-color: #292c30;
+    flex-direction: column;
+    justify-content: center;
+    width: 45rem;
+    padding: 15px;
+    margin-top: 2rem;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.titlePelicula {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #145ad4a5;
+}
+
+.marcoVideo {
+    margin: auto;
+}
+
+.detallesPelicula {
+    margin-top: 2rem;
+    background-color: #292c30;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.detallesPelicula > p {
+    margin: 3.5px 0;
+    font-size: 15px;
+    color: #fff;
+    border-bottom: 1px solid gray;
+    padding-bottom: 3px;
+}
+
+.detallesPelicula > p > b {
+    font-size: 17px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #145cd4;
+    margin-top: 1.2rem;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease background;
+}
+
+button:hover {
+    background: #2b6dde;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 1270px) {
+    .titlePelicula {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+} 
+
+@media only screen and (max-width: 850px) {
+    .titlePelicula {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .contenedor {
+        width: 90%;
+        height: 100vh !important;
+    }
+    .marcoVideo > iframe{
+        width: 300px;
+        height: auto;
+    }
+
+    .detallesPelicula {
+        width: 280px;
+        margin: auto;
+    }
+    .detallesPelicula > p {
+        font-size: 11px;
+    }
+} 

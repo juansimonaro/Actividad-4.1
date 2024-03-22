@@ -1,0 +1,56 @@
+.navbar {
+    background-color: #145cd4;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px; 
+}
+
+.titulopagina {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.listanav {
+    display: flex;
+}
+
+.listanav > li {
+    list-style: none;
+}
+
+.listanav > li:nth-child(2) {
+    margin-left: 10px;
+}
+
+.listanav > li > a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    transition: .5s ease all;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.listanav > li > a:hover { 
+    background-color: #fff;
+    color: #145cd4;
+}
+
+@media only screen and (max-width: 441px) {
+    .navbar {
+        padding: 0 15px;
+    }
+    .titulopagina {
+        font-size: 1.3rem;
+    }
+    .listanav > li:nth-child(2) {
+        margin-left: 5px;
+    }
+    .listanav > li > a {       
+        font-size: 16px;
+    }
+}
