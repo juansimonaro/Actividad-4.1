@@ -1,3 +1,3 @@
--Ejecutar npm install para instalar las dependencias del proyecto
--Ejecutar npm run dev para correr el sistema
+-Ejecutar "npm install" para instalar las dependencias del proyecto
+-Ejecutar "npm run dev" para correr el sistema
 -En el navegador poner el link del sistema: http://127.0.0.1:5173/
